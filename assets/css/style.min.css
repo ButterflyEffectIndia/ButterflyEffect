@@ -4,8 +4,22 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+.bannersectionheight{
+  height: 500px;
+}
+.bannerheight{
+  height: 120px;
+  padding: 0;
+}
 .navbarcontainer{
   width: 100%;
+  padding: 0 2vw;
+}
+.bannercontentwidth{
+  width: 60vw;
+}
+.bannerheading{
+  font-size: 0.8rem;
 }
 body {
   margin: 0;
@@ -83,9 +97,9 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+[type="submit"] 
+
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -126,14 +140,11 @@ textarea {
   height: auto;
 }
 [type="search"] {
-  -webkit-appearance: textfield;
+
   outline-offset: -2px;
 }
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
   font: inherit;
 }
 details {
@@ -1425,6 +1436,7 @@ ul {
 .menu ul li a:hover,
 .menu ul li a.active {
   color: #da5455;
+  padding: 10px;
 }
 .menu ul li ul {
   width: 160px;
@@ -1609,7 +1621,8 @@ ul {
   }
 }
 .banner__padding {
-  padding: 242px 0;
+  height: 500px;
+  padding: 50px 0;
   background-blend-mode: overlay;
 }
 .banner__padding.swiper-slide-active .banner__content h2 {
@@ -1778,11 +1791,11 @@ ul {
   color: #fff;
 }
 .banner-style2 .banner__content h2 {
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(0.7rem + 3vw);
 }
 @media (min-width: 1200px) {
   .banner-style2 .banner__content h2 {
-    font-size: 3.75rem;
+    font-size: 2.75rem;
   }
 }
 .pageheader-section {
@@ -3967,15 +3980,22 @@ form button.default-btn:hover span {
   .contact__info-left {
     margin-bottom: 15px;
   }
+  .bannercontentwidth{
+    width: 90vw;
+  }
 }
 @media (min-width: 576px) {
   .contact__info-right {
     width: calc(100% - 50px);
   }
+
 }
 @media (max-width: 575px) {
   .cases__thumb .event__bars-left p {
     color: #0d0d0d;
+  }
+  .banner__content p{
+    font-size: 12px;
   }
 }
 .cases__thumb .event__bars-left p span {
