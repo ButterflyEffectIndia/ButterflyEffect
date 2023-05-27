@@ -4,6 +4,16 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+.image{
+  height: 250px;
+}
+.logoimage{
+  margin-left: 2vw;
+  height: 80px;
+}
+.border-right{
+  border-right: 2px solid #f39c12;
+}
 .bannersectionheight{
   height: 500px;
 }
@@ -14,6 +24,7 @@ html {
 .navbarcontainer{
   width: 100%;
   padding: 0 2vw;
+  height: 100px;
 }
 .bannercontentwidth{
   width: 60vw;
@@ -1534,19 +1545,19 @@ ul {
   transform: none;
 }
 .banner-bg-1 {
-  background: url("../images/banner/bg/02.jpg") rgba(13, 13, 13, 0.7);
+  background: url("../../websiteimages/happystudetsinschoolbypixabay.png") rgba(13, 13, 13, 0.7);
 }
 .banner-bg-2 {
-  background: url("../images/banner/bg/01.jpg") rgba(13, 13, 13, 0.7);
+  background: url("../../websiteimages/paintbrushonapaintingbypixabay.png") rgba(13, 13, 13, 0.7);
 }
 .banner-bg-3 {
-  background: url("../images/banner/bg/03.jpg") rgba(13, 13, 13, 0.7);
+  background: url("../../websiteimages/adogtouched.png") rgba(13, 13, 13, 0.7);
 }
 .banner-bg-4 {
-  background: url("../images/banner/home-3/01.jpg") rgba(13, 13, 13, 0.7);
+  background: url("../../websiteimages/maninmonkdress.png") rgba(13, 13, 13, 0.7);
 }
 .banner-bg-5 {
-  background: url("../images/banner/home-3/02.jpg") rgba(13, 13, 13, 0.7);
+  background: url("../../websiteimages/openedbookshelves.png") rgba(13, 13, 13, 0.7);
 }
 .banner-bg-6 {
   background: url("../images/banner/home-3/03.jpg") rgba(13, 13, 13, 0.7);
@@ -1618,6 +1629,13 @@ ul {
 @media (max-width: 575px) {
   .banner__section.home-2 .banner__thumb ul li:nth-child(3) {
     display: block;
+  }
+  .navbarcontainer{
+    padding: 0;
+    height: 120px;
+  }
+  .navbutton{
+    margin-right: 20px;
   }
 }
 .banner__padding {
