@@ -1564,6 +1564,9 @@ ul {
 .banner-bg-5 {
   background: url("../../websiteimages/kidwriting.png") rgba(13, 13, 13, 0.7);
 }
+.banner-bg-6 {
+  background: url("../../websiteimages/2.jpg") rgba(13, 13, 13, 0.7);
+}
 .banner__section.home-2 {
   background-image: linear-gradient(
     to top,
