@@ -599,6 +599,12 @@ h5,
 h6 {
   font-weight: 900;
 }
+.volunteer__title h3{
+  color: #f39c12;
+}
+.volunteer__title p{
+  font-weight: 400;
+}
 .countdown .clock-item .count-text,
 .counter__content h2,
 .volunteer__title h6,
@@ -4257,4 +4263,11 @@ form button.default-btn:hover span {
   .topicsheading{
     font-size: 26px;
   }
+}
+.volunteer__title p{
+  font-weight: 400;
+  color: #000;
+}
+.padging{
+  padding: 50px 0 100px;
 }
